@@ -1,0 +1,59 @@
+* {font-family: Inter}
+
+body{
+    background-color: black;
+    color: white;
+}
+.sub-texto{
+    width: 350px;
+    height: 73px;
+
+}
+img{
+    width: 850px;
+    height: 366px;
+}
+.Destaque{
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ultimate700{
+    font-weight: 400px;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container{
+    width: 1276px;
+    height: 366px;
+    display: flex;
+    gap: 61px;
+    margin: 0 auto;
+}
+.banner{
+    margin: 0 auto;
+}
+.btn{
+    width: 172px;
+    height: 52px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    gap: 10px;
+    padding: 16px 33px 16px 33px;
+}
+.banner p{
+    width: 350px;
+    height: 73px;
+}
