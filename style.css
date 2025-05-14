@@ -12,13 +12,13 @@ body{
 }
 
 .menu-container {
-    max-width: 1280px;  /* limite no desktop */
+    max-width: 1280px;
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;   /* espaçamento horizontal */
+    padding: 0 24px;
     margin: 0 auto;
 }
 
@@ -56,6 +56,7 @@ body{
     width: 350px;
     height: 73px;
 }
+
 .banner img{
     width: 850px;
     height: 366px;
@@ -102,11 +103,33 @@ body{
     gap: 10px;
     padding: 16px 33px 16px 33px;
 }
+
+
 .banner p{
     width: 350px;
     height: 73px;
 }
 
-.carro2 img{
-    background-image: url(imagem/fundo\ carro\ preto\ 2.png);
+.carro2 {
+    display: flex;
+    gap: 33px;
+    max-width: 1276px;
+    margin: 69px auto;
+  }
+
+  .carro2 p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 1px;
+  }
+
+  .carro2 img{
+    width: 583.23px;
+    height: 359px;
+  }
+
+  .info-carro2 {
+    display: flex;
+    flex-direction: column;
 }
