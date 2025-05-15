@@ -1,0 +1,519 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid #404040;
+}
+
+.container-1 {
+    max-width: 1280px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.logo img {
+    width: 83px;
+    height: 22.21px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu li {
+    display: flex;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+.comprar {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 8px 14px;
+}
+
+.container-2 {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 136px auto;
+    gap: 61px;
+    padding: 0 24px;
+}
+
+.container-2 img {
+    max-width: 1024px;
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.destaque {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 46.2px;
+    text-align: center;
+}
+
+.ultimate700 {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 46.2px;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+}
+
+.container-2 p{
+    width: 350px;
+    font-size: 16px;
+    line-height: 24.2px;
+    color: #ccc;
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+.container-3 p {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 400px;
+    margin-top: -30%;
+    color: #ccc;
+}
+
+.botao,
+.botao2 {
+    display: inline-block;
+    padding: 16px 33px;
+    margin-top: 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid  #FFFFFF;
+    font-size: 14px;
+}
+
+
+.container-3 {
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0 24px;
+    flex-wrap: wrap;
+    margin: 100px auto 80px;
+}
+
+.container-3 img {
+    max-width: 1024px;
+    width: 100%;
+    height: auto;
+}
+
+.container-4 {
+    max-width: 1280px;
+    margin: 80px auto;
+    padding: 0 24px;
+}
+.container-4 p{
+    width: 400px;
+    font-size: 17px;
+    line-height: 27.3px;
+    letter-spacing: 0%;
+}
+
+.banner-aston {
+    background: linear-gradient(90deg, #7d1d22, #330002);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    color: white;
+}
+
+.banner-texto {
+    flex: 1;
+    min-width: 280px;
+}
+
+.banner-texto h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.banner-texto p {
+    font-size: 15px;
+    color: #ddd;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    
+}
+
+.botao-banner {
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: black;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.banner-aston img {
+    max-width: 1024px;
+    width: 533px;
+    height: auto;
+}
+ 
+ .rodape hr{
+    margin: 20px auto;
+    width: 1280px;
+    border: 2px solid rgba(164, 164, 164, 1)
+ }
+ 
+ .rodape .aviso{
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.6;
+    color: #000000;
+ }
+
+.rodapecima{
+    width: 1280px;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+ .rodape .rodapecima p{
+    margin-bottom: 64px;
+ }
+ 
+ .rodape .creditos{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+ }
+
+ .rodape .aviso p{
+    width: 1280px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 14px;
+    vertical-align: center;
+}
+
+.rodape{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 100px;
+ }
+ 
+ .rodape h2{
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+ }
+ 
+ .rodape hr{
+    margin: 20px auto;
+    width: 1280px;
+    border: 2px solid rgba(164, 164, 164, 1)
+ }
+
+
+ .rodape .rodapecima p{
+    font-weight: normal;
+    margin-bottom: 64px;
+ }
+ 
+ .rodape .creditos{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 14px;
+ }
+ 
+ .rodape .links a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+ }
+
+@media screen and (max-width: 1023px) {
+.container-2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.container-2 img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+    .container-2 .box {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-2 p {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .container-2 .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        flex-direction: row;
+        font-size: 26px;
+    }
+
+    .destaque {
+        margin: 0 auto;
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .ultimate700 {
+        font-size: 20px;
+    }
+    .container-3 {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.container-3 .box,
+.container-3 .box2 {
+    width: 100%;
+}
+
+.container-3 p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-3 .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.container-4 {
+    padding: 0 16px;
+}
+
+.banner-aston {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+}
+
+.banner-texto {
+    width: 100%;
+}
+
+.banner-aston img {
+    max-width: 90%;
+}
+
+.rodape {
+    padding: 40px 16px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.rodapecima {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.rodapecima img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.rodape hr {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.rodape .aviso {
+    width: 100%;
+    font-size: 14px;
+    color: black;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.rodape .creditos {
+    flex-direction: column;
+     align-items: center;
+     gap: 12px;
+     width: 100%;
+     margin-top: 20px;
+}
+
+.rodape .links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rodape .links a {
+    margin: 0;
+    font-size: 14px;
+}
+
+    .container-1 {
+        padding: 0 16px;
+        max-width: 100%;
+    }
+
+    .menu {
+        gap: 12px;
+        font-size: 13px;
+    }
+
+    
+}
+@media screen and (max-width: 768px) {
+  .rodape {
+    padding: 30px 15px;
+  }
+
+  .rodape p{
+    width: 100%;
+  }
+
+  .rodape .aviso {
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .rodape .creditos {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .rodape .links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .rodape .links a {
+    font-size: 14px;
+  }
+
+  .rodapecima img {
+    max-width: 120px;
+    height: auto;
+  }
+
+  .rodape hr {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .carro img {
+    width: 100%;
+    max-width: none;
+    margin-left: -25%;
+  }
+
+  .container-1 {
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0 12px;
+  }
+
+  .logo {
+    margin-bottom: 12px;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-bottom: 12px;
+  }
+
+  .menu li {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
