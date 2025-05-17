@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Inter";
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 .header {
     width: 100%;
     background-color: black;
-    border-bottom: 1px solid #404040;
+    border-bottom: 2px solid #404040;
 }
 
 .container-1 {
@@ -27,7 +27,7 @@ body {
 
 .logo img {
     width: 83px;
-    height: 22.21px;
+    height: auto;
     align-items: center;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .menu li {
-    display: row;
+    display: flex;
 }
 
 .menu a {
@@ -47,8 +47,6 @@ body {
     text-decoration: none;
     padding: 8px 12px;
     font-size: 14px;
-    font-weight: 500;
-    display: inline-flex;
     align-items: center;
 }
 
@@ -64,7 +62,6 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 136px auto;
-    gap: 61px;
     padding: 0 24px;
 }
 
@@ -72,7 +69,6 @@ body {
     max-width: 1024px;
     width: 850px;
     height: auto;
-    margin: 0 auto;
 }
 
 h2 {
@@ -138,7 +134,6 @@ h2 {
     align-items: center;
     gap: 60px;
     padding: 0 24px;
-    flex-wrap: wrap;
     margin: 100px auto 80px;
 }
 
@@ -174,26 +169,28 @@ h2 {
 
 .banner-texto {
     flex: 1;
-    min-width: 280px;
 }
 
 .banner-texto h2 {
+    width: 426px;
     font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 42.8px;
 }
 
 .banner-texto p {
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 396px;
+    font-size: 17px;
     color: #ddd;
-    margin-bottom: 20px;
-    line-height: 1.5;
+    line-height: 27.3px;
     
 }
 
 .botao-banner {
+    font-family: "Roboto";
     text-align: center;
-    width: 150px;
+    width: 100px;
     display: inline-block;
     padding: 12px 28px;
     background-color: black;
@@ -201,8 +198,9 @@ h2 {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .banner-aston img {
@@ -258,13 +256,6 @@ h2 {
     margin-top: 100px;
  }
  
- .rodape h2{
-    font-weight: normal;
-    font-size: 18px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
- }
- 
  .rodape hr{
     margin: 20px auto;
     width: 1280px;
@@ -297,7 +288,6 @@ h2 {
 .container-2 {
     flex-direction: column;
     text-align: center;
-    gap: 40px;
 }
 
 .container-2 img {
@@ -322,7 +312,7 @@ h2 {
     }
 
     h2 {
-        flex-direction: row;
+        flex-direction: column;
         font-size: 26px;
     }
 
@@ -338,7 +328,6 @@ h2 {
     .container-3 {
     flex-direction: column;
     text-align: center;
-    gap: 40px;
 }
 
 .container-3 .box,
@@ -361,7 +350,8 @@ h2 {
 }
 
 .banner-aston {
-    flex-direction: column;
+    width: 100%;
+    flex-direction: column-reverse;
     text-align: center;
     padding: 24px;
 }
@@ -371,7 +361,7 @@ h2 {
 }
 
 .banner-aston img {
-    max-width: 90%;
+    width: 100%;
 }
 
 .rodape {
@@ -441,6 +431,11 @@ h2 {
     padding: 30px 15px;
   }
 
+  .rodape p{
+    width: 100%;
+    max-width: 400px;
+  }
+
   .rodape .aviso {
     font-size: 13px;
     line-height: 1.5;
@@ -477,9 +472,8 @@ h2 {
   }
 
   .carro img {
-    width: 100%;
-    max-width: none;
-    margin-left: -25%;
+    width: 90%;
+    max-width: 1024px;
   }
 
   .container-1 {
