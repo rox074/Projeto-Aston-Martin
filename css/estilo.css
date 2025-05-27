@@ -1,505 +1,355 @@
 * {
-    font-family: "Inter";
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 
-.header {
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
     width: 100%;
-    background-color: black;
-    border-bottom: 2px solid #404040;
+    border-bottom: 1px solid #D0D1D3;
+    background-color: #000;
+            
 }
 
-.container-1 {
-    max-width: 1280px;
+.cabecalho {
+    max-width: 1296px;
     width: 100%;
     height: 80px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;
+}
+
+.img img {
+    max-height: 30px;
+}
+
+.botoes_cabecalho ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.botoes_cabecalho li {
+    margin: 0 15px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    color: #ccc;
+}
+
+.btn_comprar_cabecalho {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn_comprar_cabecalho:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.block1_card p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.block1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.block2 {
+    display: flex;
+    max-width: 1296px;
+    margin: 52px auto;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+.block2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.block2_card {
+    max-width: 480px;
+    padding-left: 40px;
+}
+
+section {
+    max-width: 100%;
+    padding-top: 80px;
+    margin-top: 132px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block1 {
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.block1_card {
+    max-width: 380px;
     margin: 0 auto;
 }
 
-
-.logo img {
-    width: 83px;
-    height: auto;
-    align-items: center;
+.destaque1{
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 60px;
 }
 
-.menu {
-    padding: 5px;
-    list-style: none;
-    display: flex;
-    align-items: center;
+.destaque2{
+    font-weight: 300px;
+    font-style: italic;
 }
 
-.menu li {
-    display: flex;
+.block1_card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300px;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    font-size: 14px;
-    align-items: center;
+.block2_card p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
 
-.comprar {
-    border-radius: 10px;
-    border: 1px solid white;
-    padding: 8px 14px;
-}
-
-.container-2 {
-    max-width: 1280px;
+.block3 {
+    max-width: 1296px;
+    margin: 100px auto;
+    padding: 60px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 136px auto;
-    padding: 0 24px;
+    background: linear-gradient(89.95deg, #91282F 0.44%, #330002 98.92%);
+    border-radius: 10px;
 }
 
-.container-2 img {
-    max-width: 1024px;
-    width: 850px;
+.block3_text {
+    max-width: 450px;
+    padding: 0 20px;
+}
+
+.block3_text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.block3_text p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.block3_img img {
+    max-width: 100%;
     height: auto;
 }
 
-h2 {
-    font-size: 32px;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
+.btn1 {
+    margin-top: 30px;
 }
 
-.destaque {
-    font-weight: 700;
-    font-size: 60px;
-    letter-spacing: 1px;
-    line-height: 46.2px;
-    text-align: center;
-}
-
-.ultimate700 {
-    font-style: italic;
-    font-weight: 400;
-    line-height: 46.2px;
-    text-align: center;
-    padding: 10px;
-    vertical-align: middle;
-    font-size: 30px;
-    letter-spacing: 1px;
-    margin-bottom: -15px;
-}
-
-.container-2 p{
-    width: 350px;
-    font-size: 16px;
-    line-height: 24.2px;
-    color: #ccc;
-    letter-spacing: 1px;
-    vertical-align: middle;
-}
-
-.container-3 p {
-    font-size: 15px;
-    line-height: 1.5;
-    max-width: 400px;
-    margin-top: -30%;
-    color: #ccc;
-}
-
-.botao,
-.botao2 {
+.btn1 a, .btn2 {
     display: inline-block;
     padding: 16px 33px;
-    margin-top: 24px;
+    border: 1px solid #fff;
     border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    border: 1px solid  #FFFFFF;
-    font-size: 14px;
-}
-
-
-.container-3 {
-    width: 1280px;
-    display: flex;
-    padding: 10px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container-3 img {
-    max-width: 1024px;
-    width: 100%;
-    height: auto;
-}
-
-.container-4 {
-    align-items: center;
-    width: 1296px;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-.container-4 p{
-    width: 400px;
-    font-size: 17px;
-    line-height: 27.3px;
-    letter-spacing: 0%;
-}
-
-.banner-aston {
-    width: 1296px;
-    background: linear-gradient(90deg, rgba(145, 40, 47, 1), rgba(51, 0, 2, 1));
-    border-radius: 16px;
-    display: flex;
-    padding: 20px;
-    margin: 0 auto;
-    justify-content: space-between;
-    color: white;
-}
-
-.banner-texto {
-    flex: 1;
-}
-
-.banner-texto h2 {
-    width: 426px;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 42.8px;
-}
-
-.banner-texto p {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 396px;
-    font-size: 17px;
-    color: #ddd;
-    line-height: 27.3px;
-    
-}
-
-.botao-banner {
-    font-family: "Roboto";
+    font-size: 16px;
     text-align: center;
+}
+
+.btn1 a:hover, .btn2:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn2{
     width: 100px;
-    display: inline-block;
-    padding: 12px 28px;
-    background-color: black;
-    color: white;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0;
+    background-color: #000;
 }
 
-.banner-aston img {
-    width: 1024px;
-    width: 533px;
-    height: auto;
-}
- 
- .rodape hr{
-    margin: 20px auto;
-    width: 1280px;
-    border: 2px solid rgba(164, 164, 164, 1)
- }
- 
- .rodape .aviso{
-    font-size: 14px;
-    line-height: 100%;
-    color: #000000;
- }
-
-.rodapecima{
-    width: 1280px;
-    margin: 0 auto;
-    font-weight: 500;
-    line-height: 100%;
-}
-
- .rodape .rodapecima p{
-    margin-bottom: 64px;
- }
- 
- .rodape .creditos{
-    width: 1280px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
- }
-
- .rodape .aviso p{
-    width: 1280px;
-    height: 51px;
-    font-weight: 500;
-    font-size: 14px;
-    vertical-align: center;
-}
-
-.rodape{
+footer {
+    padding: 40px 0;
     background-color: #ffffff;
     color: #000000;
+}
+
+footer h2 {
     text-align: center;
-    padding: 40px 20px;
-    margin-top: 100px;
- }
- 
- .rodape hr{
-    margin: 20px auto;
-    width: 1280px;
-    border: 2px solid rgba(164, 164, 164, 1)
- }
-
-
- .rodape .rodapecima p{
-    font-weight: normal;
-    margin-bottom: 64px;
- }
- 
- .rodape .creditos{
-    width: 1280px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 14px;
- }
- 
- .rodape .links a{
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
- }
-
-@media screen and (max-width: 1023px) {
-.container-2 {
-    flex-direction: column;
-    text-align: center;
-}
-
-.container-2 img {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-    .container-2 .box {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .container-2 p {
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    .container-2 .btn {
-        display: flex;
-        justify-content: center;
-    }
-
-    h2 {
-        flex-direction: column;
-        font-size: 26px;
-    }
-
-    .destaque {
-        margin: 0 auto;
-        font-size: 50px;
-        line-height: normal;
-    }
-
-    .ultimate700 {
-        font-size: 20px;
-    }
-    .container-3 {
-    flex-direction: column;
-    text-align: center;
-}
-
-.container-3 .box,
-.container-3 .box2 {
-    width: 100%;
-}
-
-.container-3 p {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.container-3 .btn {
-    display: flex;
-    justify-content: center;
-}
-
-.container-4 {
-    padding: 0 16px;
-}
-
-.banner-aston {
-    width: 100%;
-    flex-direction: column-reverse;
-    text-align: center;
-    padding: 24px;
-}
-
-.banner-texto {
-    width: 100%;
-}
-
-.banner-aston img {
-    width: 100%;
-}
-
-.rodape {
-    padding: 40px 16px;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.rodapecima {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.rodapecima img {
-    max-width: 100px;
-    height: auto;
-    margin-bottom: 16px;
-}
-
-.rodape hr {
-    width: 90%;
-    margin: 20px auto;
-}
-
-.rodape .aviso {
-    width: 100%;
-    font-size: 14px;
-    color: black;
-    line-height: 1.6;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-
-.rodape .creditos {
-    flex-direction: column;
-     align-items: center;
-     gap: 12px;
-     width: 100%;
-     margin-top: 20px;
-}
-
-.rodape .links {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.rodape .links a {
-    margin: 0;
-    font-size: 14px;
-}
-
-    .container-1 {
-        padding: 0 16px;
-        max-width: 100%;
-    }
-
-    .menu {
-        gap: 12px;
-        font-size: 13px;
-    }
-
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #000000;
     
 }
-@media screen and (max-width: 768px) {
-  .rodape {
-    padding: 30px 15px;
-  }
 
-  .rodape p{
-    width: 100%;
-    max-width: 400px;
-  }
-
-  .rodape .aviso {
-    font-size: 13px;
-    line-height: 1.5;
-    text-align: left;
-    padding: 0 10px;
-  }
-
-  .rodape .creditos {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    padding: 20px 0;
+.text_footer {
+    max-width: 1310px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
     text-align: center;
-  }
+    color: #000000;
+}
 
-  .rodape .links {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .rodape .links a {
+.text_footer p {
+    color: #C4C4C4;
     font-size: 14px;
-  }
+    line-height: 1.5;
+    color: #000000;
+}
 
-  .rodapecima img {
-    max-width: 120px;
-    height: auto;
-  }
+.text2_footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1310px;
+    margin: 30px auto;
+    padding: 0 20px;
+    color: #000000;
+}
 
-  .rodape hr {
-    width: 100%;
-    margin: 20px 0;
-  }
+.text2_footer p {
+    color: #C4C4C4;
+    font-size: 14px;
+    color: #000000;
+}
 
-  .carro img {
-    width: 90%;
-    max-width: 1024px;
-  }
+.text2_footer a {
+    color: #C4C4C4;
+    color: #000000;
+}
 
-  .container-1 {
-    width: 100%;
-    flex-wrap: wrap;
-    height: auto;
-    padding: 0 12px;
-  }
+.text2_footer a:hover {
+    color: #555555;
+}
 
-  .logo {
-    margin-bottom: 12px;
-  }
-
-  .menu {
-    width: 100%;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: nowrap;
-    flex-wrap: wrap;
-    font-size: 12px;
-    padding-bottom: 12px;
-  }
-
-  .menu li {
-    flex: 1 1 auto;
+@media screen and (max-width: 1200px) {
+    .block1, .block2, .block3 {
+        max-width: 95%;
+    }
+            
+    .block1, .block2 {
+    flex-direction: column;
     text-align: center;
-  }
+    padding: 50px 20px;
+    }
+    
+    .block1_card, .block2_card {
+    max-width: 80%;
+    padding: 0;
+    margin-bottom: 40px;
+    }
+    
+    .block1 img, .block2 img {
+    max-width: 80%;
+    margin: 0;
+    }
+    
+    .block3 {
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .block3_text {
+        max-width: 80%;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    
+    .block3_img {
+        padding: 0;
+    }
+            
+
+    .cabecalho {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+
+    }
+
+    .cabeçalho li{
+        padding: 20px;
+    }
+
+    .img {
+        margin-bottom: 20px;
+
+    }
+
+    .botoes_cabecalho ul {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+
+    .botoes_cabecalho li {
+        margin: 10px 0;
+    }
+
+    .text2_footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text2_footer p {
+        margin: 10px 0;
+         
+    }
+    
+    .block1_card h2 {
+        font-size: 36px;
+    }
+
+    .block3_text h2 {
+        font-size: 28px;
+    }
+
+    .btn1 a, .btn2 {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .block1, .block2, .block3 {
+        padding: 30px 15px;
+    }
+
 }
